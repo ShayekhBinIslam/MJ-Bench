@@ -99,7 +99,7 @@ def main(args):
 
             print(f"Analysis: {analysis}")
         else:
-            responses = reward_model.get_score([image_0_path, image_1_path], prompt)
+            responses = reward_model.get_score([image_0_path, image_1_path], caption)
             image_1_rating, image_2_rating = responses
             preference = get_pred(image_1_rating, image_2_rating, threshold)
             analysis = None
