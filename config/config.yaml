@@ -33,7 +33,7 @@ reward_models:
         instructblip:
             model_path: Salesforce/instructblip-vicuna-7b
             processor_path: Salesforce/instructblip-vicuna-7b
-        qwen:
+        qwen-vl:
             model_path: Qwen/Qwen-VL-Chat
             processor_path: Qwen/Qwen-VL-Chat
         internvl-chat-v1-2-plus:
